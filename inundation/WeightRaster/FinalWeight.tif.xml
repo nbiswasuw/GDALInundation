@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20170627</CreaDate><CreaTime>05344300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>XTools Pro Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20170627" Time="053443">Reclassify IntRaster.tif Value "1 0;2 1" C:\Users\nbiswas\Desktop\SASWE\Liquidearth\FinalWeight.tif DATA</Process></lineage></DataProperties></Esri></metadata>
