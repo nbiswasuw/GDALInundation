@@ -9,5 +9,5 @@ for((i=0; i<9; i+=1))
 do
 gdalwarp -s_srs EPSG:4326 -t_srs EPSG:3857 ./inundation/FloodDepth/FD_Day0$i.tiff ./reproject/reproj$i.tiff
 gdaldem color-relief ./reproject/reproj$i.tiff color.txt -alpha ./color/color$i.tiff
-gdal2tiles.py -z 5-17 -g AIzaSyDrem9f_u_ZeOrQIjLzKTmGFcrQ2cTxPuE ./color/color$i.tiff ./day$i/
+gdal2tiles.py -z 5-17 -g  ./color/color$i.tiff ./day$i/
 done
